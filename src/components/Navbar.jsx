@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 
+
 export const Navbar = ({menuOpen, setMenuOpen}) => {
 
     useEffect(() => {
@@ -7,7 +8,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
     }, [menuOpen]);
 
     return (
-    <nav className="fixed top-0 w-full bg-[rgba(0,0,0,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
+    <nav className="fixed top-0 w-full bg-[rgba(13,17,22,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-mono text-xl font-bold text-white">
