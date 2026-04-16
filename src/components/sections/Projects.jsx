@@ -27,7 +27,7 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-600/30 hover:shadow-[0_0_24px_rgba(142,60,210,0.35)] transition-all">
                         <h3 className="text-xl font-bold mb-2">Portfolio Website</h3>
-                        <p className="text-gray-400 mb-4">This very website you're on served as my introduction to React and as a way to increase my skills with TailwindCSS.</p>
+                        <p className="text-gray-400 mb-4">This very website you're on served as my introduction to React and as a way to increase my proficiency with TailwindCSS.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "TailwindCSS", "javascript", "html"].map((tech,key) => (
                                 <span key ={key} className="bg-purple-600/10 text-purple-600 py-1 px-3 rounded-full text-sm  hover:bg-purple-600/40 hover:shadow-[0_2px_8px_rgba(142,60,210,0.2)] transition-all">
