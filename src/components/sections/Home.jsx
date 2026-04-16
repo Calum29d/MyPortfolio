@@ -16,8 +16,10 @@ export const Home = () =>{
                 <a href="#projects" className = "bg-purple-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(142,60,210,0.4)]">View Projects
                 </a>
 
-                <a href="#contact" className = "border border-purple-600/50 text-purple-600 py-3 px-6 rounded font-medium transition-all duration-200 overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(142,60,210,0.2)] hover:bg-purple-600/10">Contact Me
+                <a href="" className = "border border-purple-600/50 text-purple-600 py-3 px-6 rounded font-medium transition-all duration-200 overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(142,60,210,0.2)] hover:bg-purple-600/10">Download CV
                 </a>
+
+                
 
             </div>
         </div>
