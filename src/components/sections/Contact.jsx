@@ -58,5 +58,7 @@ export const Contact = () => {
                 </div>
             </RevealOnScroll>
         </section>
+        
+        
     );
 };
