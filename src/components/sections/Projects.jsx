@@ -21,7 +21,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://github.com/Calum29d/Typerzz" className="text-purple-600 font-medium hover:text-purple-500 transistion-colors my-4">View Project<i className="fa-brands fa-square-github fa-xl"></i></a>
+                            <a href="https://github.com/Calum29d/Typerzz-ADVH-Computing-Project" className="text-purple-600 font-medium hover:text-purple-500 transistion-colors my-4">View Project<i className="fa-brands fa-square-github fa-xl"></i></a>
                         </div>
                     </div>
 
