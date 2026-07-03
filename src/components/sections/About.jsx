@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () =>{
 
-    const frontendSkills = ["React" , "Javascript", "TailwindCSS", "Javascript"];
+    const frontendSkills = ["React" , "Javascript", "TailwindCSS"];
 
     const backendSkills = ["Java", "Python", "PHP", "SQL"]
 
