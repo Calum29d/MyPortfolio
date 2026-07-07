@@ -40,6 +40,22 @@ export const Projects = () => {
                             
                         </div>
                     </div>
+
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-600/30 hover:shadow-[0_0_24px_rgba(142,60,210,0.35)] transition-all">
+                        <h3 className="text-xl font-bold mb-2">Pain Scale - Cilical Pain Assessment App </h3>
+                        <p className="text-gray-400 mb-4">Mobile app that served as my introduction to Spring Boot and PostgreSQL. It contains account creation (JWT-based), and 4 frequently used pain scales used by doctors. The idea came from a family member that complained they have to calculate patients pain themself using paper.</p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {["React Native", "Spring Boot", "PostgreSQL", "TypeScript", "Java"].map((tech,key) => (
+                                <span key ={key} className="bg-purple-600/10 text-purple-600 py-1 px-3 rounded-full text-sm  hover:bg-purple-600/40 hover:shadow-[0_2px_8px_rgba(142,60,210,0.2)] transition-all">
+                                            {tech}
+                                </span>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <a href="https://github.com/Calum29d/Pain-Scale" className="text-purple-600 font-medium hover:text-purple-500 transistion-colors my-4">View Project<i className="fa-brands fa-square-github fa-xl"></i></a>
+                            
+                        </div>
+                    </div>
                 </div>               
                 </div>
             </RevealOnScroll>
