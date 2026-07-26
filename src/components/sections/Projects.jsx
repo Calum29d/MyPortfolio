@@ -42,7 +42,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-600/30 hover:shadow-[0_0_24px_rgba(142,60,210,0.35)] transition-all">
-                        <h3 className="text-xl font-bold mb-2">Pain Scale - Cilical Pain Assessment App </h3>
+                        <h3 className="text-xl font-bold mb-2">Pain Scale - Clinical Pain Assessment App </h3>
                         <p className="text-gray-400 mb-4">Mobile app that served as my introduction to Spring Boot and PostgreSQL. It contains account creation (JWT-based), and 4 frequently used pain scales used by doctors. The idea came from a family member that complained they have to calculate patients pain themself using paper.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React Native", "Spring Boot", "PostgreSQL", "TypeScript", "Java"].map((tech,key) => (
