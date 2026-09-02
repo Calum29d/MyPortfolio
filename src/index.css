@@ -1,12 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+  --color-ink: #121212;
+  --color-paper: #E8E6E1;
+  --color-muted: #9A968D;
+  --color-accent: #6C79C9;
+  --color-line: #2A2823;
+}
+
 html, body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   font-family: "Space Grotesk", sans-serif;
-  background: #0D1116;
-  color: white;
+  background: var(--color-ink);
+  color: var(--color-paper);
 }
 
 .reveal {
