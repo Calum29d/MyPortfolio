@@ -30,9 +30,13 @@ export const Home = () =>{
                         <button  className = "border border-purple-600/50 text-purple-600 py-3 px-6 rounded font-medium transition-all duration-200 overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(142,60,210,0.2)] hover:bg-purple-600/10 cursor-pointer" onClick={saveFile}>Download CV
                         </button>
 
-                        
+
 
                     </div>
+
+                    <a href="mailto:calumdavies08@gmail.com" className="inline-flex items-center gap-2 text-gray-400 mt-8 hover:text-purple-500 transition">
+                        <i className="fa-solid fa-envelope text-purple-600"></i> calumdavies08@gmail.com
+                    </a>
                 </div>
             </RevealOnScroll>
         </section>
