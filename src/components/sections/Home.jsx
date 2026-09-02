@@ -21,7 +21,7 @@ export const Home = () =>{
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I'm currently a first year Computer Science student at the University Of Dundee, with strong aspirations to become a <span className="text-purple-500 font-bold">Software Engineer.</span> I'm passionate about problem-solving and building efficient, scalable systems.
+                        I'm currently a second year Computer Science student at the University Of Dundee, with strong aspirations to become a <span className="text-purple-500 font-bold">Software Engineer.</span> I'm passionate about problem-solving and building efficient, scalable systems.
                     </p>
                     <div className="flex justify-center space-x-4">
                         <a href="#projects" className = "bg-purple-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(142,60,210,0.4)]">View Projects
